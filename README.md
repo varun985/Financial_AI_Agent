@@ -39,39 +39,49 @@ A sophisticated AI-powered financial analysis tool built using the Phi Data fram
    - `PHI_API_KEY`
    - `OPENAI_API_KEY`
 4. Run the playground server
-
 ## Usage
-```bash
 # Start the playground server
 python playground.py
-Access the interactive interface at localhost:8501 to:
 
-Query financial data
-Get stock analysis
-Research market trends
-View company news
-Features
-Real-time stock data analysis
-Comprehensive market research
-Interactive chat interface
-Automated financial reporting
-Source-attributed information
-Table-formatted data presentation
-Development
+# Financial Data Interface
+
+Access the interactive interface at `localhost:8501` to:
+
+- Query financial data
+- Get stock analysis
+- Research market trends
+- View company news
+
+## Features
+
+- Real-time stock data analysis
+- Comprehensive market research
+- Interactive chat interface
+- Automated financial reporting
+- Source-attributed information
+- Table-formatted data presentation
+
+## Development
+
 The project is structured with modular agents that can be extended or modified:
 
-Add new tools to existing agents
-Create new specialized agents
-Customize agent instructions
-Modify response formatting
-Dependencies
-phi.agent
-phi.tools
-openai
-python-dotenv
-streamlit (for playground)
-Contributing
+- Add new tools to existing agents
+- Create new specialized agents
+- Customize agent instructions
+- Modify response formatting
+
+## Dependencies
+
+- `phi.agent`
+- `phi.tools`
+- `openai`
+- `python-dotenv`
+- `streamlit` (for playground)
+
+## Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-License
+## License
+
 MIT
